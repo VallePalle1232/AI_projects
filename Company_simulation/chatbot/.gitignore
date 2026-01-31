@@ -1,0 +1,17 @@
+
+.env
+.env.local
+.env.*.local
+
+# Virtuell miljö
+.venv/
+venv/
+env/
+
+# Python-cache
+__pycache__/
+*.pyc
+
+# Databas-filer (Spara inte din lokala ChromaDB på GitHub)
+chroma_db/
+chromadb_data/
